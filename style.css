@@ -1,0 +1,205 @@
+
+html { overflow-y: scroll; }
+body { 
+  font-family:comic sans ms;
+  font-size: 60%; 
+  line-height: 1;
+  margin-bottom: 35px;
+  margin-top: 20px;
+  background:black;
+}
+
+br { display: block; line-height: 1.6em; } 
+
+
+ol, ul { list-style: none; }
+
+input, textarea { 
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none; 
+}
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+strong { font-weight: bold; } 
+
+table { border-collapse: collapse; border-spacing: 0; }
+img { border: 0; max-width: 100%; }
+
+a { color: #3d6abc; }
+a:hover { color: #6387c7; }
+
+h1 {
+  font-family:comic sans ms;
+  color: #373737;
+  font-size: 4.6em;
+  line-height: 100px;
+  text-align: center;
+  margin-bottom: 15px;
+  color:orangered;
+}
+
+h2 {
+  font-size: 2.7em;
+  line-height: 1.4em;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color:wheat;
+  font-family:comic sans ms;
+  
+}
+
+p {
+  font-size: 2.50em;
+  line-height: 1.15em;
+  margin-bottom: 15px;
+  margin-left:30px;
+  padding-bottom:20px;
+  color:olive;
+}
+p.genre {
+	font-size: 1.2em;
+	color: #777;
+	font-style: italic; 
+	margin-bottom: 20px;
+	}
+
+
+
+
+#tvnav {
+  display: block;
+  margin-bottom: 25px;
+}
+
+#tvnav ul { list-style: none; }
+#tvnav ul li { margin-right: 4px; display: block; float: left; }
+
+#tvnav ul li a { 
+  padding: 3px 6px;
+  color: #5e83c6;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+  background: #dbe4f3;
+}
+#tvnav ul li a:hover {
+  background: #cbd8f0;
+  color: #526890;
+}
+
+#imdbcontents { display: block; width: 100%; }
+
+.floatright {
+  display: block;
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+/* clearfix */
+.clearfix:after { 
+content: "."; 
+display: block;
+ clear: both;
+ visibility: hidden;
+ line-height: 0; 
+ height: 0;
+ }
+.clearfix { display: inline-block; }
+ 
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=date],.form-container input[type=textarea]  {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=date]:focus, .form-container input[type=textarea]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+}
+td{
+	color:orangered;
+	font-size:15px;
+	margin-left:10px;
+}
